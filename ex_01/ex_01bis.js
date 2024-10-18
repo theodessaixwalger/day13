@@ -1,7 +1,6 @@
 function handleSubmit(event) {
   event.preventDefault();
 
-  // Récupération des valeurs des champs
   const firstName = document.getElementById('firstname').value.trim();
   const lastName = document.getElementById('lastname').value.trim();
   const email = document.getElementById('email').value.trim();
